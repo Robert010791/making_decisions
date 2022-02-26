@@ -103,6 +103,10 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+let someNum = myFavoriteNumbers.slice(4, 5)
+
+console.log(someNum)
+
 
 ////////// PROBLEM 7 //////////
 
