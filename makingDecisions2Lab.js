@@ -153,7 +153,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
-for (let iThree = letters.length; iThree >= 0; iThree--){
+for (let iThree = 4; iThree >= 0; iThree--){
   console.log(letters[iThree])
 }
 
@@ -229,3 +229,17 @@ switch (letterGrade) {
 */
 
 //Code Here
+
+for (let fizz = 1; fizz <= 100; fizz++){
+ if (fizz % 3 === 0 && fizz % 5 === 0){
+   console.log('Devmountain')
+ } else if (fizz % 3 === 0){
+   console.log('Dev')
+ } else if (fizz % 5 === 0){
+   console.log('mountain')
+ } else {
+   console.log(fizz)
+ }
+}
+
+// console.log(fizz)
