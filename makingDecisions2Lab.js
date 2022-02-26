@@ -54,10 +54,8 @@ let evensArr = []
 //Code Here
 
 for (evenNums = 0; evenNums < nums.length; evenNums++){
-  nums[evenNums] += 1
-  if (nums % 2 == 0){
-    evensArr.push(evenNums)
-  }
+  if (nums[evenNums] % 2 === 0)
+  evensArr.push(nums[evenNums])
 }
 
 console.log(evensArr)
