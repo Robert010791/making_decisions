@@ -170,3 +170,8 @@ let z = 5;
 
 //CODE HERE
 
+while (z > 0){
+  for (let numThree = z; numThree > 0; numThree--)
+  console.log(numThree)
+  z--
+}
